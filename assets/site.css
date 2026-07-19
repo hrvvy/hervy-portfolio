@@ -515,6 +515,8 @@ footer a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .crop-right { object-position: right center !important; }
 
 .sim-wrap { margin-top: 8px; overflow-x: auto; }
+.tbl-title { font-size: 0.95rem; font-weight: 640; letter-spacing: -0.01em; margin-bottom: 4px; }
+.sim-wrap + .tbl-title { margin-top: 44px; }
 table.sim {
   width: 100%; min-width: 620px;
   border-collapse: collapse;
